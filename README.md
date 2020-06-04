@@ -8,7 +8,11 @@ It is a solo project and is a work under progress
 
 ## Get Started
 
-### Open git bash
+### Downloading the git repository
+
+Download the zip file
+
+OR
 
 Run the following commands to clone git repository
 
