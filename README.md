@@ -6,14 +6,39 @@ This project is broken up into a backend and frontend. The backend contains the 
 
 It is a solo project and is a work under progress
 
-### Get Started
+## Get Started
 
-Run the following commands to get started
+### Open git bash
+
+Run the following commands to clone git repository
 
 ```sh
-virtualenv env
-pip install -r requirements.txt
+git init
+git clone https://github.com/saket-m0/pricatch.git
+cd Pricatch
+rmdir .git
+```
+
+### Open a terminal window
+
+Run the following commands to get started with frontend
+
+```sh
+cd frontend
+cd pricatch
 npm i
-npm run build
+npm start
+```
+
+### Open a new terminal window in Pricatch folder
+
+Run the following commands to get started with backend
+
+```sh
+cd backend
+virtualenv Pricatchenv
+pricatchenv\Scripts\activate
+pip install -r requirements.txt
+cd Pricatch
 python manage.py runserver
 ```
